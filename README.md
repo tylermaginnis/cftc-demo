@@ -2,7 +2,7 @@
 cftc-demo
 
 # Schematic
-
+```
 USE [cftc-demo]
 GO
 
@@ -28,9 +28,9 @@ CREATE TABLE [dbo].[Books](
 ) ON [PRIMARY]
 GO
 
-
+```
 # Stored Procedure [sp_SelectBooks]
-
+```
 USE [cftc-demo]
 GO
 
@@ -69,10 +69,10 @@ BEGIN
 	  FROM [dbo].[Books]
   END
 GO
-
+```
 # Stored Procedure [sp_SelectBooks_SortInDb_ByAuthorTitle]
 
-
+```
 
 USE [cftc-demo]
 GO
@@ -113,9 +113,9 @@ BEGIN
 	  ORDER BY AuthorLastName, AuthorFirstName, Title
   END
 GO
-
+```
 # Stored Procedure [sp_SelectBooks_SortInDb_ByPublisherAuthorTitle]
-
+```
 USE [cftc-demo]
 GO
 
@@ -156,6 +156,4 @@ BEGIN
   END
 GO
 
-
-
-
+```
